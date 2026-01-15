@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['Flux','Hole']
+
+roboflow:
+  workspace: fluxdetection
+  project: fluxdetection-zoeh4
+  version: 13
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/fluxdetection/fluxdetection-zoeh4/dataset/13
